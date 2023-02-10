@@ -11,19 +11,13 @@
                 <article class="col-12 col-md-8  mx-auto">
                     <div class="card shadow">
                         <div class="card-header">
-                            <h5>Producto con VARIAS imágenes</h5>
+                            <h5>Producto con UNA imagen PRINCIPAL y VARIAS imágenes secundarias</h5>
                         </div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-5">
-                                    <img src="/images/products/<%= images.length ? images[0] : 'default-image.png' %>" class="img-fluid w-100" alt="..." id="imgMain">
-                                    <div class="d-flex justify-content-between mt-3">
-                                        <% images.forEach(image => { %>
-                                            <img src="/images/products/<%= image %>" class="img-fluid" alt="..." width="30%" onclick="document.getElementById('imgMain').setAttribute('src',event.target.src)" style="cursor:pointer">
-                                        <% }) %>
-
-                                      
-                                    </div>
+                                    <img src="/images/products/default-image.png %>" class="img-fluid w-100" alt="..." id="imgMain">
+                                   
                                 </div>
                                 <div class="col-7">
                                     <h4>
