@@ -16,5 +16,11 @@
       "name": "Producto",
       "description": "lorem ipsum dolor amet sit",
       "image": null
+   },
+   {
+      "id": 4,
+      "name": "Aspiradora Karcher",
+      "description": "lorem ipsum dolor amet sit",
+      "image": "1676031262862_products_.webp"
    }
 ]

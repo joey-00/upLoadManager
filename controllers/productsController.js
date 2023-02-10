@@ -11,7 +11,7 @@ module.exports = {
             id : products.length ? products[products.length -1].id +1 : 1,
             name : req.body.name,
             description : "lorem ipsum dolor amet sit",
-            image : req.file? req.file.filename : null,
+            image : req.file ? req.file.filename : null,
         }
 
         products.push(newProduct);
@@ -21,6 +21,19 @@ module.exports = {
         return res.redirect('/')
     },
     detailOneImage : (req,res) => {
-        return res.render('detailOneImage')
+        const products = readJSON('productsOneImage.json');
+        const product = products.find(product => product.id === +req.params.id)
+        return res.render('detailOneImage',{
+            ...product
+        })
+    },
+    addMultipleImages : (req,res) => {
+        return res.render('addMultipleImages')
+    },
+    storeMultipleImages : (req,res) => {
+        return res.send(req.files)
+    },
+    detailMultipleImages : (req,res) => {
+        return res.render('detailMultipleImages')
     }
 }
