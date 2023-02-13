@@ -48,8 +48,13 @@
     <hr>
     <section class="row mb-5">
 
-    
-     
+      <% productsMainImage.forEach(product => { %>
+        <div class="col-12 col-md-4 col-lg-3">
+        <%- include('./partials/cardMainImage',{
+          ...product
+        }) %>
+      </div>
+      <% }) %>
 
     </section>
   </main>

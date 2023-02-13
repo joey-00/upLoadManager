@@ -1,0 +1,10 @@
+<div class="card">
+    <img src="/images/products/<%= mainImage ? mainImage : 'default-image.png' %>" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><%= name %></h5>
+      <p class="card-text"><%= description %></p>
+    </div>
+    <div class="card-body d-flex justify-content-end">
+      <a href="/products/detail-one-image/<%= id %>" class="btn btn-sm btn-outline-dark">ver más</a>
+    </div>
+  </div>

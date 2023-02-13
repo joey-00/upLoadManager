@@ -18,7 +18,7 @@ router
   .get('/detail-multiple-images/:id',detailMultipleImages)
 
   .get('/add-main-image',addMainImage)
-  .post('/add-main-image', storeMainImage)
+  .post('/add-main-image',uploadProductImages.fields([{name: 'mainImage'},{name: 'images'}]), storeMainImage)
   .get('/detail-main-image/:id',detailMainImage)
 
 module.exports = router;
