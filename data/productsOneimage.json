@@ -1,0 +1,26 @@
+[
+   {
+      "id": 1,
+      "name": "Zapatilla Adidas",
+      "description": "lorem ipsum dolor amet sit",
+      "image": "1675951324976_products_.png"
+   },
+   {
+      "id": 2,
+      "name": "Procesador AMD",
+      "description": "lorem ipsum dolor amet sit",
+      "image": "1675951341668_products_.png"
+   },
+   {
+      "id": 3,
+      "name": "Producto",
+      "description": "lorem ipsum dolor amet sit",
+      "image": null
+   },
+   {
+      "id": 4,
+      "name": "Aspiradora Karcher",
+      "description": "lorem ipsum dolor amet sit",
+      "image": "1676031262862_products_.webp"
+   }
+]
