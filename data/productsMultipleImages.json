@@ -17,5 +17,15 @@
          "1676036529038_products_.png",
          "1676036529040_products_.png"
       ]
+   },
+   {
+      "id": 3,
+      "name": "Gaz Trailbaizer",
+      "description": "lorem ipsum dolor amet sit",
+      "images": [
+         "1676291075257_products_.webp",
+         "1676291075260_products_.webp",
+         "1676291075261_products_.webp"
+      ]
    }
 ]

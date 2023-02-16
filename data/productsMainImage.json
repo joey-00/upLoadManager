@@ -1,0 +1,25 @@
+[
+   {
+      "id": 1,
+      "name": "Porsche",
+      "description": "lorem ipsum dolor amet sit",
+      "mainImage": "1676292402962_products_.webp",
+      "images": [
+         "1676292402964_products_.webp",
+         "1676292402965_products_.webp",
+         "1676292402966_products_.webp",
+         "1676292402968_products_.webp"
+      ]
+   },
+   {
+      "id": 2,
+      "name": "producto 1",
+      "description": "lorem ipsum dolor amet sit",
+      "mainImage": null,
+      "images": [
+         "1676293193809_products_.jpg",
+         "1676293193817_products_.jpg",
+         "1676293193821_products_.jpg"
+      ]
+   }
+]
