@@ -1,0 +1,21 @@
+[
+   {
+      "id": 1,
+      "name": "Aspiradora ACME",
+      "description": "lorem ipsum dolor amet sit",
+      "images": [
+         "1676035355333_products_.png",
+         "1676035355336_products_.png",
+         "1676035355340_products_.png"
+      ]
+   },
+   {
+      "id": 2,
+      "name": "SmartWatch",
+      "description": "lorem ipsum dolor amet sit",
+      "images": [
+         "1676036529038_products_.png",
+         "1676036529040_products_.png"
+      ]
+   }
+]

@@ -9,12 +9,15 @@
         <article class="col-12 col-md-8 col-lg-6 mx-auto">
             <div class="card shadow">
                 <div class="card-header">
-                    <h5>Agregar producto con VARIAS imágenes</h5>
+                    <h5>Agregar producto con UNA imagen PRINCIPAL y VARIAS imágenes secundarias</h5>
                 </div>
                 <div class="card-body">
                     <form action="" method="POST" enctype="multipart/form-data">
                         <div class="mb-3">
                             <input type="text" name="name" class="form-control" placeholder="Nombre del producto">
+                        </div>
+                        <div class="mb-3">
+                            <input type="file" name="image" class="form-control">
                         </div>
                         <div class="mb-3">
                             <input type="file" name="images" class="form-control" multiple>
